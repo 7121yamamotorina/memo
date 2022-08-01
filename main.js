@@ -12,7 +12,7 @@
     hour = 0;
    
     $('#clock').html('00:00:00:00');
-    timer = setInterval(countup, 1000);
+    timer = setInterval(countup, 100);
     
     $(this).prop('disabled',true);
      $('#stop,#reset').prop('disabled',false);
