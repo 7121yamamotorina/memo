@@ -2,7 +2,7 @@ $(".dan").on("click", function() {
   var target_value = $(event.target).text()
   let result = document.getElementById("result")
   if (target_value == "AC") {
-    result.value = "0";
+    result.value = "0"; 
     console.log("0");
   }
   else if (target_value == "=") {
