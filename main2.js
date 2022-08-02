@@ -7,7 +7,7 @@ $(".dan").on("click", function() {
   }
   else if (target_value == "=") {
     result.value = eval(result.value);
-  }
+  } 
   else {
     if (result.value == "0") {
       result.value = target_value;
