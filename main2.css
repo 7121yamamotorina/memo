@@ -6,12 +6,12 @@
 input{
   width:96%; 
   padding: 0;
-  margin: 0;
+  margin: 0; 
   text-align: right;
   background-color: black;
   color: white;
-}
-
+} 
+ 
 button{
 
 width: 23%;  
